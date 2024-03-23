@@ -10,5 +10,5 @@ Simple tiny php template
  * with spaces or without same with loops and other blocks
  * {{=$some_var}} makes <?php echo $some_var; ?>
  * You can add or remove ';' at the end of block it will be added after excepts ':' '{' '}'
- * remove $to_eval = str_replace(array('<p>','</p>'),'',$to_eval); if you dont need to strip <p> which most wysiwyg editors adds
+ * remove '$to_eval = str_replace(array('<p>','</p>'),'',$to_eval);' if you dont need to strip <p> which most wysiwyg editors adds
 
